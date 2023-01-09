@@ -1,0 +1,22 @@
+@layer components {
+  /* section class */
+  .section {
+    @apply pt-32 pb-16;
+  }
+  .section-title {
+    @apply pb-4 font-sans text-2xl font-bold text-gray-900;
+  }
+  .section-text {
+    @apply pb-8 text-[15px] text-gray-600;
+  }
+
+  /* button class */
+  .button {
+    @apply flex items-center justify-center rounded-xl bg-red-600 py-4 px-8 text-[15px] font-semibold text-white hover:bg-red-700;
+  }
+
+  /* container class */
+  .container {
+    @apply mx-auto w-[calc(100%-3rem)] max-w-5xl;
+  }
+}
