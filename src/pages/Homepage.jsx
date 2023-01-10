@@ -6,6 +6,7 @@ import Share from "../parts/Homepage/Share";
 import Decorations from "../parts/Homepage/Decorations";
 import Accessory from "../parts/Homepage/Accessory";
 import Send from "../components/Send";
+import Footer from "../components/Footer";
 
 export const Homepage = () => {
   return (
@@ -16,6 +17,7 @@ export const Homepage = () => {
       <Decorations />
       <Accessory />
       <Send />
+      <Footer />
     </>
   );
 };
