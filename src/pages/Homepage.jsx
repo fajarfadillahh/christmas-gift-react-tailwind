@@ -5,6 +5,7 @@ import Hero from "../parts/Homepage/Hero";
 import Share from "../parts/Homepage/Share";
 import Decorations from "../parts/Homepage/Decorations";
 import Accessory from "../parts/Homepage/Accessory";
+import Send from "../components/Send";
 
 export const Homepage = () => {
   return (
@@ -14,6 +15,7 @@ export const Homepage = () => {
       <Share />
       <Decorations />
       <Accessory />
+      <Send />
     </>
   );
 };

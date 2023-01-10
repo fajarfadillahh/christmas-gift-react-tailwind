@@ -12,7 +12,7 @@
 
   /* button class */
   .button {
-    @apply flex items-center justify-center rounded-lg bg-red-600 py-4 px-8 text-[15px] font-semibold text-white hover:bg-red-700;
+    @apply flex h-[52px] items-center justify-center rounded-lg bg-red-600 py-4 px-8 text-[15px] font-semibold text-white hover:bg-red-700;
   }
 
   /* container class */
