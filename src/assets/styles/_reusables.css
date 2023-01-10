@@ -4,7 +4,7 @@
     @apply pt-32 pb-16;
   }
   .section-title {
-    @apply pb-4 font-sans text-[24px] font-bold leading-[1.4] text-gray-900;
+    @apply pb-4 font-sans text-[24px] font-bold leading-[1.4] text-gray-900 sm:text-[28px] lg:text-[32px];
   }
   .section-text {
     @apply pb-8 text-[15px] leading-[1.8] text-gray-600;
