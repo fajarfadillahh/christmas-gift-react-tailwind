@@ -16,11 +16,11 @@ export default function Decorations() {
           </h1>
         </div>
 
-        <div className="decorations__group grid grid-cols-[repeat(auto-fit,minmax(280px,0.9fr))] justify-center gap-12">
+        <div className="decorations__group grid grid-cols-[repeat(auto-fit,minmax(240px,0.9fr))] justify-center gap-12 lg:max-w-4xl lg:grid-cols-3 lg:justify-self-center">
           <div className="decorations__content grid gap-8 rounded-3xl border-2 border-gray-100 p-8 transition-all duration-300 hover:border-white hover:bg-white hover:shadow-lg">
             <img
               src={DecorImg1}
-              className="decorations__content-img w-[230px] justify-self-center"
+              className="decorations__content-img w-[230px] justify-self-center drop-shadow-lg"
               alt="Decoration product img"
             />
 
@@ -40,7 +40,7 @@ export default function Decorations() {
           <div className="decorations__content grid gap-8 rounded-3xl border-2 border-gray-100 p-8 transition-all duration-300 hover:border-white hover:bg-white hover:shadow-lg">
             <img
               src={DecorImg2}
-              className="decorations__content-img w-[230px] justify-self-center"
+              className="decorations__content-img w-[230px] justify-self-center drop-shadow-lg"
               alt="Decoration product img"
             />
 
@@ -60,7 +60,7 @@ export default function Decorations() {
           <div className="decorations__content grid gap-8 rounded-3xl border-2 border-gray-100 p-8 transition-all duration-300 hover:border-white hover:bg-white hover:shadow-lg">
             <img
               src={DecorImg3}
-              className="decorations__content-img w-[230px] justify-self-center"
+              className="decorations__content-img w-[230px] justify-self-center drop-shadow-lg"
               alt="Decoration product img"
             />
 
