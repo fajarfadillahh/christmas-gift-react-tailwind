@@ -6,8 +6,8 @@ import ShareImg from "../../assets/images/shared.png";
 export default function Share() {
   return (
     <div className="share section">
-      <div className="share__container container grid gap-12">
-        <div className="share__data justify-self-center text-center">
+      <div className="share__container container grid gap-12 sm:grid-cols-2 sm:items-center">
+        <div className="share__data justify-self-center text-center sm:text-left">
           <h1 className="share__title section-title">
             Sharing Is The Best Gift <br />
             Christmas
@@ -24,7 +24,7 @@ export default function Share() {
 
         <img
           src={ShareImg}
-          className="share__img w-72 justify-self-center"
+          className="share__img w-72 justify-self-center sm:-order-1 sm:w-auto"
           alt="Share image"
         />
       </div>

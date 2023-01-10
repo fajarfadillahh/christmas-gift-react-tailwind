@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="hero__container container grid gap-12 sm:grid-cols-2 sm:items-center lg:max-w-4xl">
         <img
           src={HeroImg}
-          className="hero__img w-72 justify-self-center sm:order-2 md:w-auto"
+          className="hero__img w-72 justify-self-center sm:order-2 sm:w-auto"
           alt="Hero image"
         />
 
